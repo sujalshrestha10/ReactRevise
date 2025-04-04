@@ -25,6 +25,7 @@ function UpdateNestedObj() {
 
     return (
         <div className="border">
+            <h1>Updating the nested arrays</h1>
             <h1>{person.name}</h1>
             <h2>{person.artwork.title}</h2>
             <p>City: {person.artwork.city}</p>

@@ -9,10 +9,10 @@ function ArrayList() {
     return (
         <>
             <div className="border">
-            <h1>Updating the arrays</h1>
+                <h1>Updating the arrays</h1>
 
-            {/* If we use push it mutuates the previous array and the changes not occured as per required so we use different approach */}
-            {/* <h1>Sculpture</h1>
+                {/* If we use push it mutuates the previous array and the changes not occured as per required so we use different approach */}
+                {/* <h1>Sculpture</h1>
             <input value={SclpName} onChange={e => setSclpName(e.target.value)} />
             <button onClick={() => {
                 SclpArtist.push({
@@ -27,16 +27,16 @@ function ArrayList() {
             </ul> */}
 
 
-            {/* instead use this approach */}
-            <h1>Sculpture</h1>
-            <input value={SclpName} onChange={e => setSclpName(e.target.value)} />
-            <button onClick={() => { setSclpArtist([...SclpArtist, { id: someid++, Name: SclpName }]) }}>Add</button >
+                {/* instead use this approach */}
+                <h1>Sculpture</h1>
+                <input value={SclpName} onChange={e => setSclpName(e.target.value)} />
+                <button onClick={() => { setSclpArtist([...SclpArtist, { id: someid++, Name: SclpName }]) }}>Add</button >
 
 
-            <ul>
-                {SclpArtist.map(Artist => (<li key={Artist.id}>{Artist.Name} </li>))}
-            </ul>
-        </div >
+                <ul>
+                    {SclpArtist.map(Artist => (<li key={Artist.id}>{Artist.Name} </li>))}
+                </ul>
+            </div >
         </>
 
     )

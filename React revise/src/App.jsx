@@ -1,11 +1,12 @@
 
 
 import './App.css'
-import Object_Copy from './copying object using spread operator/CopyObject'
-import UpdateNestedObj from './copying object using spread operator/UpdateNestedObject'
-import ArrayList from './copying object using spread operator/UpdatingArrays'
+import Object_Copy from './UpdatingArrays/CopyObject'
+import UpdateNestedObj from './UpdatingArrays/UpdateNestedObject'
+import ArrayList from './UpdatingArrays/UpdatingArrays'
 import PropsLearning from './propsfiles/PropsLearn'
-import RemArr from './copying object using spread operator/RemovingFromArray'
+import RemArr from './UpdatingArrays/RemovingFromArray'
+import ReplacingArr from './UpdatingArrays/Replacing'
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
       <UpdateNestedObj />
       <ArrayList />
       <RemArr />
+      <ReplacingArr/>
     </>
   )
 
