@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 function ArrayList() {
     let someid = 0;
 
@@ -7,6 +8,8 @@ function ArrayList() {
 
     return (
         <>
+            <div className="border">
+            <h1>Updating the arrays</h1>
 
             {/* If we use push it mutuates the previous array and the changes not occured as per required so we use different approach */}
             {/* <h1>Sculpture</h1>
@@ -33,6 +36,7 @@ function ArrayList() {
             <ul>
                 {SclpArtist.map(Artist => (<li key={Artist.id}>{Artist.Name} </li>))}
             </ul>
+        </div >
         </>
 
     )

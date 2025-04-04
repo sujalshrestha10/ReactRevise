@@ -24,7 +24,7 @@ function UpdateNestedObj() {
 
 
     return (
-        <div>
+        <div className="border">
             <h1>{person.name}</h1>
             <h2>{person.artwork.title}</h2>
             <p>City: {person.artwork.city}</p>

@@ -29,7 +29,7 @@ function Object_Copy() {
 
     return (
         <>
-            <h1>hello hi weherawfiav lorm
+            <h1 className="border">Copy Object Example
                 <form action="">
                     <p className="name">
                         Firstname: <input onChange={Handle_First_Name_Change} value={name.firstname} type="text " />
