@@ -7,6 +7,7 @@ import ArrayList from './UpdatingArrays/UpdatingArrays'
 import PropsLearning from './propsfiles/PropsLearn'
 import RemArr from './UpdatingArrays/RemovingFromArray'
 import ReplacingArr from './UpdatingArrays/Replacing'
+import InsertingArrays from './UpdatingArrays/InsertingInArrays'
 function App() {
 
   return (
@@ -16,7 +17,8 @@ function App() {
       <UpdateNestedObj />
       <ArrayList />
       <RemArr />
-      <ReplacingArr/>
+      <ReplacingArr />
+      <InsertingArrays />
     </>
   )
 
