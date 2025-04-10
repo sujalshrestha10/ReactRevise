@@ -2,7 +2,7 @@ import { useState } from "react"
 
 export default function InsertingArrays() {
 
-    
+
 
     const elements = [
         { id: 0, name: 'sujal' },
@@ -28,6 +28,9 @@ export default function InsertingArrays() {
 
 
     }
+    const Handlereverse = () => {
+        setFirst([...first].reverse())
+    }
 
 
     return (
@@ -43,7 +46,12 @@ export default function InsertingArrays() {
                 <input value={name} onChange={e => setName(e.target.value)} />
                 <button onClick={HandleClick}>Insert
 
+
+
                 </button>
+                <div>
+                    <button onClick={Handlereverse}>Reverse</button>
+                </div>
 
             </div>
 
